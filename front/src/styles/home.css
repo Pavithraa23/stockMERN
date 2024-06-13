@@ -1,0 +1,110 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; }
+  
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-image: url('meern2.jpg');
+    background-size: cover;
+    background-position: center;
+  } 
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 8%;
+    background-color: rgba(245, 222, 179, 0.7); 
+    border: 5px solid #4682B4; 
+    border-radius: 15px; 
+  }
+  
+  h1 {
+    text-align: center;
+    display: inline-block;
+    background-color: #4682B4; /* Steel blue background */
+    color: #fff; /* White text */
+    padding: 15px 25px; /* Larger padding */
+    border-radius: 15px; /* Rounder corners */
+  }
+  
+  form {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid #4682B4; 
+    padding: 3px; 
+    font-size: larger; 
+    border-radius: 10px; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 3px solid #4682B4; 
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #4682B4; 
+    font-weight: bold; 
+    position: relative; 
+  }
+  
+  .delete1 {
+    background-color: #FF6347; 
+  }
+  
+  .delete1:before {
+    content: '\1F5D1'; 
+  
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    font-size: 20px;
+  }
+  
+  .edit1 {
+    background-color: #FFFF00; 
+  }
+  
+  .edit1:before {
+    content: '\270E'; 
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: #32CD32; 
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold; 
+    font-size: larger;
+    padding: 6px 12px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    float: right;
+  }
+  
+  button:hover {
+    background-color: #4682B4; 
+  }
+  
+  .addstock {
+    margin-bottom: 20px;
+  }
+  
